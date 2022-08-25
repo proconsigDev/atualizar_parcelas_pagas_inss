@@ -1,0 +1,26 @@
+{
+    "name": "finaz-robot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mayco Vilefort, Geovane Cataneo",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cep-promise": "^4.1.0",
+        "chalk": "^4.1.0",
+        "dotenv-safe": "^8.2.0",
+        "knex": "^0.95.15",
+        "moment": "^2.29.1",
+        "mysql": "^2.18.1",
+        "puppeteer": "^1.20.0",
+        "puppeteer-extra": "^2.1.6",
+        "puppeteer-extra-plugin-stealth": "^2.7.5",
+        "readline-sync": "^1.4.10",
+        "request": "^2.88.2"
+    }
+}
